@@ -1,5 +1,5 @@
 # Ecommerce-Follow-Along
-Key Features of the Project:
+Milestone 1: Project Overview to summarize what was covered in the session.
 
 In this project, I will be building an E-Commerce app using the MERN stack (MongoDB, Express.js, React.js, Node.js). Here is what I will be learning and working on:
 
