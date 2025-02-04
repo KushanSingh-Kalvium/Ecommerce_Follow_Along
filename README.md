@@ -93,6 +93,13 @@ Steps Completed:
 
 3. Dynamic Rendering: Used array mapping to dynamically render cards for each product.
 
-Next Steps:
+Milestone 9: Product Input Form 🌟
+In this milestone, we focused on creating a frontend form for adding products to your e-commerce app. This form allows users to input detailed information about products, including multiple images, which will eventually be saved to a database and displayed on the product homepage.
 
-In the next milestone, we’ll add features like filtering and sorting. Keep up the great work! 🚀
+Steps Completed:
+
+1. Product Form: Built a form to input details like product name, description, price, category, and quantity.
+
+2. Multiple Image Input: Added functionality for users to upload multiple images for each product.
+
+3. Dynamic Data: Set up the form to eventually save the product data and display it dynamically on the product homepage.
