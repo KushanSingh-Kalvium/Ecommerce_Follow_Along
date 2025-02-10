@@ -11,9 +11,9 @@ function App(){
         <Route path="/Login" element={<LoginPage/>}/>
         <Route path="/Signup" element={<SignupPage/>}/>
         <Route path="/Home" element={<Home/>}/>
+        <Route path="/create-product/:id" element={<CreateProduct />} />
         <Route path='/create-product' element={<CreateProduct />} />
         <Route path='/my-products' element={<MyProducts />} />
-        <Route path="/create-product/:id" element={<CreateProduct />} />
       </Routes>
     </BrowserRouter>
   )
