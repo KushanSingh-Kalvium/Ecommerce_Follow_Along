@@ -1,4 +1,5 @@
 # Ecommerce-Follow-Along
+
 Milestone 1: Project Overview to summarize what was covered in the session.
 
 In this project, I will be building an E-Commerce app using the MERN stack (MongoDB, Express.js, React.js, Node.js). Here is what I will be learning and working on:
@@ -128,3 +129,17 @@ This Express.js route updates a product in a MongoDB database, handling file upl
 Milestone 14 - Delete the product
 
 This e-commerce application is built with Node.js, Express, MongoDB, and React, providing full-stack functionality for product management. It includes RESTful APIs for adding, updating, and deleting products. The /delete-product/:id endpoint allows secure product removal. Error handling ensures reliability. Ideal for scalable and dynamic online stores.
+
+Milestone 15 - Added Nav bar
+
+Added the nav component to all the pages and make the navigations to all this pages smooth and easy. 
+
+Nav component with links to all pages:-
+
+1.Home 
+
+2.My-products 
+
+3.Add product 
+
+4.cart
