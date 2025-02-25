@@ -194,3 +194,19 @@ Milestone 20: User Profile & Data Sharing
 ✅ Display Profile Photo, Name, Email, and Addresses on the profile page.
 
 ✅ Ensure Secure Data Handling while fetching and sending user information.
+<hr>
+🏆 Milestone 21: Address Form
+
+Created a frontend form to collect address details.
+
+Captured Country, City, Address1, Address2, Zip Code, Address Type.
+
+Implement form validation and dropdowns for selection.
+
+📌 Implementation
+
+Create AddressForm.jsx component.
+
+Use controlled inputs with validation.
+
+Style and structure for a user-friendly UI.
