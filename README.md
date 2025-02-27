@@ -210,3 +210,13 @@ Create AddressForm.jsx component.
 Use controlled inputs with validation.
 
 Style and structure for a user-friendly UI.
+<hr>
+Milestone 22: Store Address in User Profile  
+
+- **Added** a new `POST /api/user/address` endpoint. 
+
+- **Stores** user address in the database under the `User` model.  
+
+- **Validates** user existence before saving the address.  
+
+- **Handles** errors like missing data, invalid user, and server issues.  
