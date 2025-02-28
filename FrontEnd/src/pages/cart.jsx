@@ -1,11 +1,13 @@
+// Cart.jsx
 import React, { useState, useEffect } from 'react';
 import CartProduct from '../component/auth/CartProduct';
 import NavBar from '../component/auth/nav';
-import { useNavigate } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom'; // Import the useNavigate hook
 
 const Cart = () => {
+
   const [products, setProducts] = useState([]);
-  const navigate = useNavigate();
+  const navigate = useNavigate(); // Initialize navigate
 
   useEffect(() => {
     fetch(`http://localhost:3000/api/v2/product/cartproducts?email=${'kurtlee673@gmail.com'}`)
@@ -23,38 +25,39 @@ const Cart = () => {
         console.error("Error fetching products:", err);
       });
   }, []);
+    
+      console.log("Products:", products);
 
-  const handlePlaceOrder = () => {
-    navigate('/select-address');
-  };
+      const handlePlaceOrder = () => {
+        navigate('/select-address'); // Navigate to the Select Address page
+      };
 
-  return (
-    <div className="w-full h-screen overflow-hidden"> {/* Prevents full-page scrolling */}
-      <NavBar />
-      <div className="w-full h-full flex justify-center items-center">
-        <div className="w-full md:w-4/5 lg:w-4/6 2xl:w-2/3 h-full border-l border-r border-neutral-300 flex flex-col overflow-hidden">
-          <div className="w-full h-16 flex items-center justify-center">
-            <h1 className="text-2xl font-semibold">Cart</h1>
-          </div>
-          {/* Scrollable product list */}
-          <div className="w-full flex-grow overflow-auto px-3 py-2 gap-y-2">
-            {products.map(product => (
-              <CartProduct key={product._id} {...product} />
-            ))}
-          </div>
-          {/* Place Order Button */}
-          <div className="w-full p-4 flex justify-end">
-            <button
-              onClick={handlePlaceOrder}
-              className="bg-blue-500 text-white px-6 py-2 rounded-md hover:bg-blue-600"
-            >
-              Place Order
-            </button>
-          </div>
-        </div>
-      </div>
+      return (
+        <div className='w-full h-screen'>
+          <NavBar />
+          <div className='w-full h-full justify-center items-center flex'>
+            <div className='w-full md:w-4/5 lg:w-4/6 2xl:w-2/3 h-full border-l border-r border-neutral-300 flex flex-col'>
+              <div className='w-full h-16 flex items-center justify-center'>
+                <h1 className='text-2xl font-semibold'>Cart</h1>
+              </div>
+              <div className='w-full flex-grow overflow-auto px-3 py-2 gap-y-2'>
+                {products.map(product => (
+                  <CartProduct key={product._id} {...product} />
+                ))}
+              </div>
+              {/* Place Order Button */}
+              <div className='w-full p-4 flex justify-end'>
+                <button
+                  onClick={handlePlaceOrder}
+                  className='bg-blue-500 text-white px-6 py-2 rounded-md hover:bg-blue-600'
+                >
+                  Place Order
+                </button>
+              </div>
+            </div>
+            </div>
     </div>
   );
-};
+}
 
 export default Cart;
