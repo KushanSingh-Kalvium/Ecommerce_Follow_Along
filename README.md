@@ -230,3 +230,9 @@ In this milestone:
 ✅ Create a "Select Address" page to display all saved addresses and allow users to choose a delivery address.
 
 ✅ Write a Mongoose schema to store order details.
+<hr>
+Milestone 24 🎯
+
+In this milestone:
+
+✅ Create an Order Confirmation page.
