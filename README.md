@@ -236,3 +236,13 @@ Milestone 24 🎯
 In this milestone:
 
 ✅ Create an Order Confirmation page.
+<hr>
+Milestone 25 📝
+
+1. An API endpoint was created to receive product details, user email, and address.
+
+2. The user ID is retrieved using the provided email.
+
+3. Separate orders are stored for each product with the same address in the MongoDB orders collection.
+
+4. The implementation follows the existing order schema and ensures data integrity.

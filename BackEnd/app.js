@@ -8,6 +8,7 @@ const ErrorHandler = require("./middleware/error");
 const app = express();
 const product = require('./controller/product')
 const path = require('path')
+const orders = require('./controller/orders')
 
 // Middleware
 app.use(express.json());
