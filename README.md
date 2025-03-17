@@ -256,3 +256,11 @@ Milestone 26 📝
 3. Using the retrieved _id, all orders associated with the user are fetched.
 
 4. The response contains all orders belonging to the user.
+<hr>
+Milestone 27: My Orders Page
+
+In this milestone, we focused on creating the frontend page that displays all user orders.
+<hr>
+Milestone 28: Cancel Order Feature
+
+In this milestone, we focused on adding a cancel order feature to the my-orders page and creating a backend endpoint for handling order cancellations.
