@@ -264,3 +264,19 @@ In this milestone, we focused on creating the frontend page that displays all us
 Milestone 28: Cancel Order Feature
 
 In this milestone, we focused on adding a cancel order feature to the my-orders page and creating a backend endpoint for handling order cancellations.
+<hr>
+Milestone 29📝
+
+1. Created a PayPal Developer Account and logged into the PayPal Developer Dashboard.
+
+2. Located the Client ID in the sandbox accounts and saved it in the project.
+
+3. Updated the Order Confirmation Page to include two payment options:
+
+- Cash on Delivery (COD)
+
+- Online Payment
+
+4. Implemented radio buttons to toggle between COD and Online Payment.
+
+5. Set up logic so that PayPal buttons only appear when the Online Payment option is selected.
