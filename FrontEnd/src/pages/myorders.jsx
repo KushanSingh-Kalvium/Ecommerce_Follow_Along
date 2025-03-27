@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
  import axios from 'axios';
- import NavBar from '../components/auth/nav';
+ import NavBar from '../component/auth/nav';
  import { useSelector } from 'react-redux'; // Import useSelector from react-redux
  
  const MyOrdersPage = () => {

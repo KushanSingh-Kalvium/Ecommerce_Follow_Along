@@ -304,3 +304,7 @@ This implementation improves state consistency and makes data flow more manageab
 Milestone 32 🎯  
 
 Implemented Redux for global state management, enabling seamless state access across all pages.
+<hr>
+Milestone 33 🎯 
+
+Implemented JWT authentication with tokens stored in cookies for secure user sessions.

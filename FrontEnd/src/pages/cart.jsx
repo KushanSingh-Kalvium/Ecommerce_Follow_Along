@@ -1,7 +1,7 @@
 // Cart.jsx
 import React, { useState, useEffect } from 'react';
-import CartProduct from '../components/auth/CartProduct';
-import NavBar from '../components/auth/nav';
+import CartProduct from '../component/auth/CartProduct';
+import NavBar from '../component/auth/nav';
 import { useNavigate } from 'react-router-dom'; // Import the useNavigate hook
 import { useSelector } from 'react-redux'; // Import useSelector from react-redux
 

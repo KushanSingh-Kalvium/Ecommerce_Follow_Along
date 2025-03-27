@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
-import AddressCard from "../components/auth/AddressCard";
-import NavBar from "../components/auth/nav";
+import AddressCard from "../component/auth/AddressCard";
+import NavBar from "../component/auth/nav";
 import { useSelector } from "react-redux"; // Import useSelector
 
 export default function Profile() {

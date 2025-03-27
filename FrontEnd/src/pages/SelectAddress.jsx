@@ -1,6 +1,6 @@
 // SelectAddress.jsx
 import React, { useState, useEffect } from 'react';
-import NavBar from '../components/auth/nav'; // Ensure the path is correct and component name matches
+import NavBar from '../component/auth/nav'; // Ensure the path is correct and component name matches
 import { useNavigate } from 'react-router-dom';
 import axios from 'axios';
 import { useSelector } from 'react-redux'; // Import useSelector from react-redux

@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import axios from "axios";
 import { useNavigate } from "react-router-dom";
-import NavBar from "../components/auth/nav";
+import NavBar from "../component/auth/nav";
 import { useSelector } from "react-redux"; // Import useSelector
 const CreateAddress = () => {
     const navigate = useNavigate();
