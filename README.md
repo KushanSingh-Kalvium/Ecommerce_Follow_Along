@@ -300,3 +300,7 @@ In this milestone, I implemented Redux for global state management. I set up a R
 ✅ **Dispatch & Select** – Used `useDispatch` and `useSelector` for state manipulation.  
 
 This implementation improves state consistency and makes data flow more manageable across components. 🚀  
+<hr>
+Milestone 32 🎯  
+
+Implemented Redux for global state management, enabling seamless state access across all pages.
