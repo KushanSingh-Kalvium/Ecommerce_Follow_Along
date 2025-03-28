@@ -308,3 +308,15 @@ Implemented Redux for global state management, enabling seamless state access ac
 Milestone 33 🎯 
 
 Implemented JWT authentication with tokens stored in cookies for secure user sessions.
+<hr>
+Milestone 34📝
+
+1. Got the token from the browser cookie and send it to the server
+
+2. In backend wrote an middleware function to validate that JWT token
+
+3. In every page made sure that user cannot go to that page with out login
+<hr>
+Milestone 35📝
+
+1. deployed
